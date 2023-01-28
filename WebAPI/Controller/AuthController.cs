@@ -33,7 +33,7 @@ namespace WebAPI.Controller
         }
 
 
-        [HttpPost("/authentication")]
+        [HttpPost("/login")]
 
         public async Task<ActionResult<string>> Authentication(UserAuthenModel user)
         {
